@@ -45,6 +45,15 @@ Click **Verify** and you’ll immediately know if the signature is valid for tha
 
 ---
 
+## ☂️ Umbrel
+
+🧩 This app is also available in my Umbrel Community App Store:  
+👉 [github.com/dennysubke/dennys-umbrel-app-store](https://github.com/dennysubke/dennys-umbrel-app-store)
+
+---
+
+<br>
+
 💪 Big thanks to [pajasevi (PavelTheCoder)](https://github.com/pajasevi/bip47-verifier) for kicking this off.
 
 <br>⠀⠀⠀
