@@ -1,4 +1,3 @@
-# Dockerfile
 FROM node:20 AS builder
 
 WORKDIR /app
@@ -11,10 +10,8 @@ RUN pnpm run build
 
 FROM nginx:alpine
 
-# Die gebauten Dateien direkt ins nginx Root-Verzeichnis kopieren
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Nginx so konfigurieren, dass es die index.html im Root bedient und SPA Routing funktioniert
 RUN printf "server {\n\
     listen 80;\n\
     root /usr/share/nginx/html;\n\
