@@ -7,7 +7,7 @@ COPY . .
 
 RUN corepack enable && corepack prepare pnpm@latest --activate
 RUN pnpm install
-RUN pnpm run build --base=/bip47-verifier/
+RUN pnpm run build
 
 FROM nginx:alpine
 
