@@ -11,12 +11,16 @@ RUN pnpm run build
 
 FROM nginx:alpine
 
-COPY --from=builder /app/dist /usr/share/nginx/html/bip47-verifier
+# Die gebauten Dateien direkt ins nginx Root-Verzeichnis kopieren
+COPY --from=builder /app/dist /usr/share/nginx/html
 
+# Nginx so konfigurieren, dass es die index.html im Root bedient und SPA Routing funktioniert
 RUN printf "server {\n\
     listen 80;\n\
-    location /bip47-verifier/ {\n\
-        try_files \$uri \$uri/ /bip47-verifier/index.html;\n\
+    root /usr/share/nginx/html;\n\
+    index index.html;\n\
+    location / {\n\
+        try_files \$uri \$uri/ /index.html;\n\
     }\n\
 }" > /etc/nginx/conf.d/default.conf
 
