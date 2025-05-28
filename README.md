@@ -47,4 +47,8 @@ Click **Verify** and you’ll immediately know if the signature is valid for tha
 
 💪 Big thanks to [pajasevi (PavelTheCoder)](https://github.com/pajasevi/bip47-verifier) for kicking this off.
 
+<br>⠀⠀⠀
+
+#FREESAMOURAI
+
 
