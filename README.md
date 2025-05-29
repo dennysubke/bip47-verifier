@@ -73,6 +73,16 @@ Click **Verify** and you’ll immediately know if the signature is valid for tha
 
 ---
 
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/510e7389-d33d-4c9e-b787-04128423add0" alt="Screenshot 1" width="30%" />
+  <img src="https://github.com/user-attachments/assets/4cf9b1ea-d6c3-4ceb-bdb3-cb6abffb59dc" alt="Screenshot 2" width="30%" />
+  <img src="https://github.com/user-attachments/assets/184f8800-fc29-43fd-a96b-61f03e8d79fa" alt="Screenshot 3" width="30%" />
+</p>
+
+---
+
 ## ☂️ Umbrel
 
 🧩 This app is also available in my Umbrel Community App Store:  
