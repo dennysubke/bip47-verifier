@@ -33,6 +33,34 @@ The app will now be available at:
 
 ---
 
+## 🛠️ Build it yourself (optional)
+
+If you want to build the image yourself instead of using the prebuilt version, you can do so with Docker:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/dennysubke/bip47-verifier-docker.git
+cd bip47-verifier-docker
+``` 
+
+### 2. Build the Docker image
+
+```bash
+docker build -t bip47-verifier-docker .
+```
+
+### 3. Run the container
+
+```bash
+docker run -p 8080:80 bip47-verifier-docker
+```
+
+The app will now be available at:  
+👉 [http://localhost:8080](http://localhost:8080)
+
+---
+
 ## 📝 Usage
 
 You’ll see three fields:
